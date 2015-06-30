@@ -16,7 +16,7 @@ http.get(url, function(response) {
     console.log(str);
   });
 
-  response.on('error', console.error)
+  response.on('error', console.error);
 
 });
 
